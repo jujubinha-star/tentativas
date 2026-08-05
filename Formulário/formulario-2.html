@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário 😘😍</h1>
+        <p>Preencha esse formulário para se cadastrar!</p>
+    </header>
+    <main>
+
+        <label for="nome">NOME</label><br>
+        <input type="text" id="nome" placeholder="Digite seu nome completo" required><br>
+
+        <label for="data">DATA DE NASCIMENTO</label> <br>
+        <input type="date" id="data" required><br>
+
+        <label for="idade">IDADE</label><br>
+        <input type="number" id="idade" min="1" placeholder="Coloque sua idade" required> <br>
+
+        <label for="e-mail">E-MAIL</label><br>
+        <input type="email" id="e-mail" placeholder="Digite seu e-mail" required><br>
+
+        <label for="senha">SENHA</label><br>
+        <input type="password"  id="senha" required placeholder="Digite sua senha"><br>
+
+        <label for="cidade">CIDADE</label><br>
+        <select id="cidade" required>
+            <option>Londrina</option>
+            <option>Ibiporã</option>
+            <option>Cambé</option>
+            <option>São Sebastião da Amoreira</option>
+        </select><br>
+        
+        <label for="feminino">Feminino</label>
+        <input type="radio" id="feminino"> 
+
+        <label for="masc">Masculino</label>
+        <input type="radio" id="masc">
+        <label for="outro">Outro</label>
+        <input type="radio" id="outro"><br>
+
+        <label for="check">Aceito os termos</label>
+        <input type="checkbox" id="check" required><br>
+
+    
+        <button type="submit">
+            Enviar
+        </button>
+
+
+    </main>
+</body>
+</html>

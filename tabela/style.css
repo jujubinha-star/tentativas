@@ -1,0 +1,66 @@
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 2px solid black;
+    padding: 1rem;
+}
+
+th{
+background-color: rgb(203, 181, 224);
+    padding: 1rem;
+    border:2px, solid, black;
+}
+.matematica{
+color: rgba(140, 189, 189, 0.705);
+}
+.artes{
+color: rgb(238, 203, 230);
+}
+.quimica{
+color: rgba(238, 14, 171, 0.418);
+}
+.fisica{
+color: rgb(202, 175, 143);
+}
+.biologia{
+    color: rgba(80, 117, 72, 0.699);
+}
+.portugues{
+    color: rgba(209, 130, 130, 0.788);
+}
+.geografia{
+    color: rgb(228, 145, 67);
+}
+.ingles{
+   color: rgb(100, 89, 26);
+}
+.historia{
+    color: rgb(195, 108, 245);
+}
+.redacao{
+    color: rgb(100, 15, 72);
+}
+.filosofia{
+    color: rgb(19, 56, 44);
+}
+.ed{
+    color: brown;
+}
+.lit{
+    color: orangered;
+}
+.empree{
+    color: chartreuse;
+}
+.dia:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.horario:hover{
+    color: rgb(21, 6, 77);
+    cursor: pointer;
+    font-size: 20px;
+}
